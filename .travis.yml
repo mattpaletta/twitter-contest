@@ -2,4 +2,6 @@ language: python
 python:
   - "3.4"
 install: "pip3 install TwitterAPI && pip3 install apscheduler"
-script: python3 -m py_compile main.py && python3 tests.py
+script: 
+	- python  main.py
+	- python tests.py
