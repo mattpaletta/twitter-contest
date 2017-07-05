@@ -3,5 +3,5 @@ python:
   - "3.4"
 install: "pip3 install TwitterAPI && pip3 install apscheduler"
 script: 
-	- python  main.py
-	- python tests.py
+  - python  main.py
+  - python tests.py
