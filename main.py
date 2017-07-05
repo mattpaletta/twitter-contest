@@ -245,5 +245,5 @@ CheckRateLimit()
 ScanForContests()
 UpdateQueue()
 
-while (True):
-	time.sleep(1)
+for i in range(12 * 3600): # Go for 12 hours
+    time.sleep(1) # Sleep 1 second
