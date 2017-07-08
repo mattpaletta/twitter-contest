@@ -10,9 +10,9 @@ env:
   - secure: nR/XbJUMFHe6RpqQRHbfmxd8Y32uhijig/bZp5XbfZdCcbctenKqkWSkuNPfWO6s/s2mt1BaI9TrnhzIhbrw2F1pFYpHe528Qnsjxj68WQqOpt4CeTCZI7QdzD8g2Fkyw2lfHVvKqnEF9JXsVEmCT8u3a2y1EuHXdKHb9yETr+dU05CQnq2i4Ifhupr0BrhIfMq08b2Kkg87YO3LOiYTSEvjh9qW8GxFDUtFb7yoP6zmTIPlm45qW/LBC1LeWedSlRf7G7qGZh6wYFCoI9Cq3xGEmBbynRLoIcQYMXf+aeHsSZpeVvOZhmMim0ecEyYzHX/qYFdNTSEHyKPSGXZrvy5ujwWr3NJNJ4ANTWn/1qkMY/R+9+cHPYnp7McDzZkFjAShLSdxFhQDFGwsBJuMaaUJOL0JsgWyXgEZ0eNIPydCdBankzSQPliCGLfM+21hofSdUXyAP+ULhA5085+XPBA0ByA/2kKT57cH7OA+0ISrQz+wVlws7giwWeh6ZXN7bstGIV7pueE+xg1eDNSpP7eNQe4/t9uaY7mabDPs9XOJ7Z21pVCwU2vRir2i7qvYAdyQaQtptMpENJt5MTd/vXO7SQ1qQg2vm3OTM+3VYnGXF2r/i+LeQfln4ltACLUm4A0W531wkrhCIPtyzC7gQWhuaMzI//Gr+lPQ7gKh4sw=
 
 script:
-- export consumer\-key=$consumer\-key
-- export consumer\-secret=$consumer\-secret
-- export access\-token\-key=$access\-token-key
-- export access\-token\-secret=$access\-token-secret
+- export consumerkey=$consumerkey
+- export consumersecret=$consumersecret
+- export accesstokenkey=$accesstoken-key
+- export accesstokensecret=$accesstoken-secret
 - python main.py
 - python tests.py
