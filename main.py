@@ -14,7 +14,7 @@ with open('config.json') as data_file:
 consumer_key = os.environ["consumerkey"]
 consumer_secret = os.environ["consumersecret"]
 access_token_key = os.environ["accesstokenkey"]
-access_token_secret = os.environ["accesstoken-secret"]
+access_token_secret = os.environ["accesstokensecret"]
 retweet_update_time = data["retweet-update-time"]
 scan_update_time = data["scan-update-time"]
 rate_limit_update_time = data["rate-limit-update-time"]
