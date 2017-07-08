@@ -7,14 +7,14 @@ import sys
 import os
 
 # Load our configuration from the JSON file.
-with open('config.json') as data_file:    
+with open('config.json') as data_file:
 	data = json.load(data_file)
 
 # These vars are loaded in from config.
 consumer_key = os.environ["consumerkey"]
 consumer_secret = os.environ["consumersecret"]
 access_token_key = os.environ["accesstokenkey"]
-access_token_secret = os.environ["accesstokensecret"]
+access_token_secret = os.environ["accesstoken-secret"]
 retweet_update_time = data["retweet-update-time"]
 scan_update_time = data["scan-update-time"]
 rate_limit_update_time = data["rate-limit-update-time"]
