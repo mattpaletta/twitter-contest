@@ -12,7 +12,7 @@ env:
 script:
 - export consumerkey=$consumerkey
 - export consumersecret=$consumersecret
-- export accesstokenkey=$accesstoken-key
-- export accesstokensecret=$accesstoken-secret
+- export accesstokenkey=$accesstokenkey
+- export accesstokensecret=$accesstokensecret
 - python main.py
 - python tests.py
