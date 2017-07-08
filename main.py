@@ -245,5 +245,5 @@ CheckRateLimit()
 ScanForContests()
 UpdateQueue()
 
-while (1)
+while (1):
     time.sleep(1) # Sleep 1 second
